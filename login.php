@@ -1,7 +1,11 @@
 
-
-
             <?php require 'header.php'; ?>
+            <?php
+      require 'condatabase.php' ?> 
+
+ <?php
+      require 'login-.php' ?> 
+      
 
       <!-- Start content section -->
       <section id="content-login-page">
@@ -11,7 +15,7 @@
         <div class="content-form text-center">
           <div class="container">
           <p class='title-form m-10'>Welcome back</p>
-            <form>
+            <form  method="POST" action="login-.php">
             <div class="form-group">
             <label  class="label" for="Example@Gmail.Com">Email address</label>
             <input
@@ -26,6 +30,7 @@
               <div class="form-group" id="show_hide_password">
                 <label class="label" for="exampleInputPassword1">Password</label>
                 <input
+                name="password"
                   type="password"
                   class="form-control"
                   id="exampleInputPassword1"
@@ -36,8 +41,8 @@
                 </div> -->
               </div>
 
-              <button type="submit" class="btn login-Page-btn">
-                <a class="log-link" href="./login.html">Log in</a>
+              <button type="submit" class="btn login-Page-btn"  name="login">
+                <a class="log-link" href="">Log in</a>
               </button>
               <div class="check">
                

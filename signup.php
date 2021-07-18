@@ -1,16 +1,17 @@
 <?php require 'header.php'; ?>
-    </section>
+  
 
     <!-- Start content section -->
     <section id="content-sign-page">
       <h1 class="title text-center">Welcome To The Family</h1>
       <!-- Start Form -->
 
-      <!-- <?php
-      require 'condatabase.php' ?> -->
+     <?php
+      require 'condatabase.php' ?> 
 
-
-   <form  method="POST">
+<?php  require 'users.php' ?> 
+    
+   <form   method="POST" action="users.php">
           <div class="form-group">
             <label class="label" for="exampleInputEmail1">Name</label>
             <input
@@ -75,24 +76,6 @@
         </form>
 
 
-        <?php
-     
-      
-     
-if (isset($_POST ['signup'] )){
-
-    $name = $_POST ['name'] ;
-    $email= $_POST ['email'] ;
-    $specialty = $_POST ['specialty'] ;
-    // $img = $_POST ['img'] ;
-      $pass = $_POST ['password'] ;
-
-$mysqli->query("INSERT INTO USERS ( name , email ,Specialty  , pass) VALUES ('$name' , '$email', '$specialty'  ,'$pass')")
-or die ($mysqli->error) ;
-
- }
-
-?>
       
       
       

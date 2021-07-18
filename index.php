@@ -6,7 +6,7 @@
 </div>   -->
   <!-- end logo section -->
   <!-- Start nav-bar section -->
-
+<img src="imges/bg-login.jpeg" alt="">
  
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -132,6 +132,34 @@
 
 </div>
     </section> -->
+
+
+
+
+<section id="aboutus">
+
+ <div class="container">
+  <h2>
+    about us
+
+   </h2>
+  <div class="row">
+    
+    <div class="col-md-6" style="margin: auto;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, neque pariatur, placeat vero adipisci necessitatibus veritatis perferendis fugiat ad inventore dolor molestias repudiandae qui! Quis aliquam, quisquam maiores vero facilis cupiditate hic ullam, iure laudantium laboriosam ipsum aut natus ut ipsa reprehenderit, delectus excepturi in deserunt perspiciatis? Laboriosam, voluptatibus dolor.3</div>
+    <div class="col-md-6"><img src="imges/3C3A1494.JPG" alt="" class="w-100"></div>
+  </div>
+ </div>
+</section>
+
+
+
+
+
+
+
+
+
+
 
   <!-- section  about start -->
   <section id="hall" class="mt-5">
