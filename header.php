@@ -42,7 +42,7 @@
               <a class="nav-link" href="#aboutus">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#">Serveries </a>
             </li>
             <?php
       session_start();
@@ -72,7 +72,7 @@
       // session_start();
    if(isset($_SESSION['id'])){
       echo '
-      <a href="signup.php" class="" role="button" aria-pressed="true"><img src="imges/t2.jpg" alt="" style="width:60px; height: 60px;" class="rounded-circle"></a>
+      <a href="editprofile.php" class="" role="button" aria-pressed="true"><img src="imges/t2.jpg" alt="" style="width:60px; height: 60px;" class="rounded-circle"></a>
       <a class="login-btn" href="logout.php" style="text-decoration:none">logout</a>';
       }else{
     echo '
@@ -87,12 +87,7 @@
           <a href="signup.php" class="sign-btn" role="button" aria-pressed="true">Sign up</a> -->
         
      
-<form action="logout.php"  method="POST" >
-      <div class="col-md-4 pt-4">
-         
-         <!-- <a class="login-btn" href="login.php">2222n</a> -->
-         <!-- <a href="logout.php" class="" role="button" aria-pressed="true">log out</a> -->
-         </form>
+
      </div> 
 
 
